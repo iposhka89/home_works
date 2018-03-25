@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>homeWork1</title>
+ </head>
+ <body>
+    <script type="text/javascript">
+        var operation,
+            firstValue,
+            secondValue,
+            result;
+        operation = prompt('Choose your operation!','+,-,*,/,%');
+        firstValue = prompt('Enter first value','?? ????? ?? ????????!');
+        secondValue = prompt('Enter second value','???? ?????? ???? ??????!');
+        switch(operation) {
+            case '+': result = parseInt(firstValue,10)+parseInt(secondValue,10); 
+                      alert(result);
+                      break;
+            case '-': result = firstValue-secondValue; 
+                      alert(result);
+                      break;
+            case '*': result = firstValue*secondValue; 
+                      alert(result);
+                      break;
+            case '/': result = firstValue/secondValue; 
+                      alert(result);
+                      break;
+            case '%': result = firstValue%secondValue; 
+                      alert(result);
+                      break;
+            default:alert('bad choise=)')
+        }
+    </script>
+ </body>
+</html>
+ 
